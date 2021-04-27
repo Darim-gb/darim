@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+header img {
+    width: 100%;
+    max-width: 128px;
+}
+header{
+    display: flex;
+    align-content: center;
+}
+.nav{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 1444px;
+    margin: 0 auto;
+    list-style-type: none;
+    font-size: 24px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.nav a{
+    text-decoration: none;
+    color: #000000;
+    transition: all .3s;
+}
+.nav a:hover{
+    color: blueviolet;
+}
+.nav li{
+    width: 38px;
+    margin-right: 24px;
+}
+.nav li:last-child{
+    margin-right: 0;
+}
